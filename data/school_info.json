@@ -1,0 +1,113 @@
+{
+  "school": {
+    "name": "Quezon City University",
+    "address": "123 Main Street, Springfield",
+    "phone": "+1-555-123-4567",
+    "email": "info@greenwoodhigh.edu",
+    "website": "www.greenwoodhigh.edu"
+  },
+  "schedule": {
+    "school_hours": "7:30 AM - 3:00 PM",
+    "office_hours": "7:00 AM - 4:00 PM",
+    "lunch_break": "12:00 PM - 1:00 PM"
+  },
+ "academic_calendar": {
+    "first_semester": {
+        "period": "August 14 - December 14, 2024",
+        "enrollment": "July 1 - August 9, 2024",
+        "start_of_classes": "August 14",
+        "events": [
+            "August 19 - Quezon Day",
+            "August 21 - Ninoy Aquino Day",
+            "August 15-30 - Adjustment of Schedule (Changing/Adding/Withdrawal)",
+            "August 26 - National Heroes Day",
+            "September 30 - Last Day of Dropping of Subjects",
+            "October 7-12 - Midterm Examination",
+            "October 21-23 - Submission of Midterm Grades",
+            "November 1 - All Saints Day",
+            "November 2 - All Souls Day",
+            "November 30 - Bonifacio Day",
+            "December 2 - Submission of Class Schedule for 2nd sem",
+            "December 8 - Feast of the Immaculate Conception of Mary",
+            "December 9-14 - Final Examination",
+            "December 19 - Start of Christmas Break for students",
+            "December 19-23 - Submission of Final Grades",
+            "December 19-23 - Release of Grade Slips",
+            "December 27 - Release of Grade Slips"
+        ]
+    },
+    "second_semester": {
+        "period": "January 15 - May 17, 2025",
+        "enrollment": "January 6-10",
+        "start_of_classes": "January 15",
+        "events": [
+            "January 20-31 - Adjustment of Schedule (Changing/Adding/Withdrawal)",
+            "January 29 - Chinese New Year",
+            "February 25 - People Power Day",
+            "March 3-7 - QCU Foundation Day",
+            "March 10 - Last Day of Dropping of Subjects",
+            "March 17-22 - Midterm Examination",
+            "April 1-3 - Submission of Midterm Grade",
+            "April 9 - Araw ng Kagitingan",
+            "April 17,18,19 - Holy Week",
+            "May 1 - Labor Day",
+            "May 5-10 - Final Examination (Graduating)",
+            "May 14 - Submission of Final Grade (Graduating)",
+            "May 12-17 - Final Examination (Non-Graduating)",
+            "May 28 - Academic Council Deliberation",
+            "May 26-28 - Submission Final Grade (Non-Graduating)",
+            "June 9 - Release of Grade Slips",
+            "June 9-13 - BOR Meeting (Tentative)",
+            "June 26-27 - Graduation Day (Tentative)"
+        ]
+    },
+    "summer": {
+        "period": "June 10 - July 18, 2025",
+        "enrollment": "June 5"
+    }
+},
+  "admissions": {
+    "enrollment_period": "March 1 - April 30",
+    "required_documents": [
+      "Birth certificate",
+      "Previous school records",
+      "Immunization records",
+      "Proof of residence"
+    ],
+    "age_requirement": "Must be 14 years old by September 1"
+  },
+  "programs": [
+    "Science & Technology",
+    "Arts & Humanities",
+    "Sports & Athletics",
+    "Music & Performing Arts",
+    "Advanced Placement (AP) Courses"
+  ],
+  "tuition": {
+    "local_students": "Free (public school)",
+    "international_students": "$5,000/year",
+    "scholarships": "Merit-based scholarships available"
+  },
+  "staff": {
+    "principal": "Dr. Sarah Johnson",
+    "vice_principal": "Mr. David Lee",
+    "counselor": "Ms. Emily Carter",
+    "librarian": "Mr. James Wong"
+  },
+  "facilities": [
+    "Library",
+    "Science Labs",
+    "Computer Lab",
+    "Gymnasium",
+    "Cafeteria",
+    "Auditorium"
+  ],
+  "extracurriculars": [
+    "Basketball",
+    "Soccer",
+    "Chess Club",
+    "Drama Club",
+    "Science Olympiad",
+    "Student Council"
+  ]
+}
