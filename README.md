@@ -39,25 +39,31 @@ javac --module-path "C:\javafx-sdk\lib" --add-modules javafx.controls,javafx.fxm
 ### Step 4 — Run
 ```bash
 java --module-path "C:\javafx-sdk\lib" --add-modules javafx.controls,javafx.fxml -cp out Main
+
+
+### Tell VS Code where JavaFX is
+Create a file .vscode\settings.json inside your project folder with this:
+```bash
+json{
+    "java.project.referencedLibraries": [
+        "C:\\javafx-sdk\\lib\\*.jar"
+    ]
+}
+### Then create .vscode\launch.json:
+json{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run School Chatbot",
+            "request": "launch",
+            "mainClass": "Main",
+            "vmArgs": "--module-path \"C:\\javafx-sdk\\lib\" --add-modules javafx.controls"
+        }
+    ]
+}
 ```
 
-## VS Code Setup (Easier!)
-1. Install "Extension Pack for Java"
-2. Install "JavaFX Support" extension
-3. Add JavaFX lib path to your .vscode/settings.json:
-```json
-{
-  "java.project.referencedLibraries": [
-    "C:/javafx-sdk/lib/*.jar"
-  ]
-}
-```
-4. Add VM args to .vscode/launch.json:
-```json
-{
-  "vmArgs": "--module-path C:/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml"
-}
-```
 
 ## Features
 - Modern chat bubble UI
