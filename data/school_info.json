@@ -1,10 +1,10 @@
 {
   "school": {
     "name": "Quezon City University",
-    "address": "123 Main Street, Springfield",
-    "phone": "+1-555-123-4567",
+    "address": "673 Quirino Highway, San Bartolome, Novaliches, Quezon City, Philippines",
+    "phone": "(02) 8806-3049",
     "email": "info@greenwoodhigh.edu",
-    "website": "www.greenwoodhigh.edu"
+    "website": "https://qcu.edu.ph/"
   },
   "schedule": {
     "school_hours": "7:30 AM - 3:00 PM",
@@ -73,25 +73,35 @@
       "Previous school records",
       "Immunization records",
       "Proof of residence"
+    ]
+  },
+  "programs": {
+    "College of Computer Studies": [
+       "Bachelor of Science in Information Technology",
+       "Bachelor of Science in Computer Science",
+       "Bachelor of Science in Information Systems "
     ],
-    "age_requirement": "Must be 14 years old by September 1"
+    "College of Education": [
+       "Bachelor of Bachelor of Early Childhood Education"
+    ],
+    "College of Engineering": [
+       "Bachelor of Science in Industrial Engineering",
+       "Bachelor of Science in Electronics Engineering"
+    ],
+    "College of Business": [
+       "Bachelor of Science in Entreprenuership"
+    ], 
+    "College of Accountancy": [
+       "Bachelor of Science in Acoccountancy"
+    ]
   },
-  "programs": [
-    "Science & Technology",
-    "Arts & Humanities",
-    "Sports & Athletics",
-    "Music & Performing Arts",
-    "Advanced Placement (AP) Courses"
+  "Tuition": [
+    "Quezon City University (QCU) offers free tuition and waives miscellaneous fees for qualified students under the Universal Access to Quality Tertiary Education Act (RA 10931). As a CHED-recognized institution, QCU provides free education to Filipinos enrolled in undergraduate programs, managed through the UniFAST program."
   ],
-  "tuition": {
-    "local_students": "Free (public school)",
-    "international_students": "$5,000/year",
-    "scholarships": "Merit-based scholarships available"
-  },
   "staff": {
-    "principal": "Dr. Sarah Johnson",
+    "principal": "Dr. Theresita V. Atiezna",
     "vice_principal": "Mr. David Lee",
-    "counselor": "Ms. Emily Carter",
+    "Goated Professor": "Oeg Comoj / Geo Jomoc",
     "librarian": "Mr. James Wong"
   },
   "facilities": [
@@ -99,15 +109,14 @@
     "Science Labs",
     "Computer Lab",
     "Gymnasium",
-    "Cafeteria",
+    "Canteen",
     "Auditorium"
   ],
-  "extracurriculars": [
-    "Basketball",
-    "Soccer",
-    "Chess Club",
-    "Drama Club",
-    "Science Olympiad",
-    "Student Council"
+  "Organizations": [
+    "(LESIT) League of Excellent Students in Information Technology"   
+  ],
+  "Gutom" : [
+    "Oeg Comoj",
+    "Geo Jomoc"
   ]
 }

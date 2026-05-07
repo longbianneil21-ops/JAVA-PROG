@@ -3,6 +3,7 @@
     "configurations": [
         {
             "type": "java",
+   
             "name": "Run School Chatbot",
             "request": "launch",
             "mainClass": "Main",
